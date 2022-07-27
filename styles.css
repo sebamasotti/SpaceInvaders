@@ -1,0 +1,62 @@
+html {
+    box-sizing: border-box;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#statusOver, #scoreParrafo {
+    position: fixed;
+    color: white;
+    text-align: center;
+    font-size: 62px;
+    opacity: 0;
+}
+
+#saludo {
+    position: fixed;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    opacity: 0;
+    bottom: 5rem;
+}
+
+p{
+    position: fixed;
+    z-index: 10;
+    color: white;
+    margin: 1rem;
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+audio {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    opacity: 0.4;
+    height: 30px;
+    width: 250px;
+}
+
+footer {
+    opacity: 0.8;
+    position: fixed;
+    z-index: 10;
+    color: white;
+    bottom: 1rem;
+    left: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
